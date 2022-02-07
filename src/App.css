@@ -1,0 +1,169 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ================== Login CSS ============*/
+.login-body {
+  background-image: url("./asset/login_background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.container-login {
+  text-align: center;
+  padding-top: 4%;
+}
+
+.login {
+  box-shadow: inset 900px 900px 300px rgba(255, 255, 255, 0.9);
+  border-radius: 7px;
+  max-width: 50rem;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+.login h1 {
+  color: #00a8cc;
+  font-family: girassol;
+  font-size: 45px;
+  padding: 15px 0px 5px 0px;
+  margin-top: 0;
+}
+.login-text {
+  font-family: libre baskerville;
+  font-size: 22px;
+  letter-spacing: 8px;
+  color: #142850;
+}
+.login-desc {
+  font-family: poppins;
+  font-size: 17px;
+  color: #142850;
+  margin: 0 0 5px;
+}
+.login-form {
+  text-align: left;
+  padding: 20px;
+}
+.input-lable {
+  font-size: 16px;
+  font-weight: 500;
+}
+.input-field {
+  border-bottom: 2px solid #303030;
+  padding-bottom: 7px;
+  padding-top: 26px;
+}
+.input-field input {
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+}
+.input-field select {
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+}
+.remember-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submit-button input {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: none;
+  background-color: #142850;
+  border: 2px solid #142850;
+  padding: 7px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+/* ================= Sign-up CSS  ================================= */
+
+.signup-body {
+  background-image: url("./asset/sign-up-background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.signup {
+  box-shadow: inset 900px 900px 300px rgba(255, 255, 255, 0.9);
+  border-radius: 7px;
+  max-width: 100rem;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+.signup h1 {
+  color: #00a8cc;
+  font-family: girassol;
+  font-size: 45px;
+  padding: 15px 0px 5px 0px;
+  margin-top: 0;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.signup-form .input-field {
+  border-bottom: 2px solid #303030;
+  padding-bottom: 7px;
+  padding-top: 26px;
+  width: 47.9%;
+  min-width: 280px;
+  margin-right: 20px;
+}
+.download-button button {
+  background: none;
+  background-color: #00a8cc;
+  border: 2px solid #00a8cc;
+  padding: 7px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+.download-container {
+  display: flex;
+  justify-content: space-between;
+  width: 47%;
+  min-width: 280px;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 706px) {
+  .signup-form .input-field {
+    border-bottom: 2px solid #303030;
+    padding-bottom: 7px;
+    padding-top: 26px;
+    width: 100%;
+  }
+  .download-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 25px;
+  }
+}
